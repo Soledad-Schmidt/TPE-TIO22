@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Colaborar</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Refugio Abbey Road</h1>
+            <div id="btn_menu" class="estilo_btnMenu"><a>MENU</a></div>
+        </div>
+    </header>
+    
+    <nav class="botonera_principal">
+        <li class="boton"><a href="index.html" target="_blank">Home</a></li>
+        <li class="boton"><a href="colaborar.html" target="_blank">Cómo colaborar</a></li>
+        <li class="boton"><a href="contacto.html" target="_blank">Contacto</a></li>
+    </nav> 
+
+
+    <article class="texto_colaborar">
+        <div class="texto">
+            <h2>¿Cómo colaborar con el Refugio?</h2>
+            <p>Con el fin de cubrir las necesidades de nuestros rescatados (infraesctructura, alimento, servicios veterinarios, entre otros) recurrimos a la venta de una serie de productos que pueden adquirir fácilmente acercándose al refugio o bien contactándonos.</p>
+            <p>Otra forma de colaborar con nuestros rescatados es amadrinar/apadrinar el refugio o a alguno de nuestros integrantes caninos. Estas donaciones son a voluntad, como así también su frecuencia.</p>
+            <p>Si te interesa esta última propuesta, ponete en contacto con nosotros haciendo <a class="link_colaborar" href="contacto.html" target="_blank">click aqui</a></p>
+        </div>
+    </article>
+
+    <div class="tabla">
+        <h2>Productos para la venta</h2>
+        <table class="texto" id="tabla_productos">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio unitario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Calcomanías</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Pins</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Tazas</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Llaveros</td>
+                    <td>$250</td>
+                </tr>
+                <tr>
+                    <td>Mate</td>
+                    <td>$350</td>
+                </tr>
+                <tr>
+                    <td>Libretas</td>
+                    <td>$150</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    
+    <div>
+        <h2>Podés adquirir nuestros productos llenando el formulario y luego nosotros nos ponemos en contacto con vos.</h2>    
+       
+        <form class="texto" id="colaborar">
+        <label for="nombre">Nombre y apellido:</label>
+        <input id="nombre" type="text" name="nombre">
+    
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+    
+        <label for="articulo">Artículo:</label>
+        <input id="articulo" type="articulo" name="articulo">
+    
+        <label for="cantidad">Cantidad:</label>
+        <input id="cantidad" type="number" name="cantidad">
+
+        <button class="btn_colaborar" id="mostrar">Enviar</button>
+        </form>
+
+        <div class="btn_tabla">
+            <button class="btn_colaborar" id="agregar3">Agregar 3</button>
+            <button class="btn_colaborar" id="vaciar">Vaciar tabla</button>
+        </div> 
+
+        <table class="texto">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Articulo</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody id="tabla_dinamica">
+            
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <footer>
+        <p>Created by Group 085</p>
+        <p>2022</p>
+    </footer>
+    <script type="text/javascript" src="../js/menu.js"></script>
+    <script type="text/javascript" src="../js/tabla_dinamica.js"></script>
+</body>
+</html>

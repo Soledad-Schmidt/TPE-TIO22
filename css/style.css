@@ -1,0 +1,286 @@
+/*sitio*/
+
+body {
+    background: #fdceb9;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+h2 {
+    padding: 1%;
+    font-size: large;
+    text-align: center;
+    background-color: #7897ab;
+    color: #655d8a;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #7897ab;
+    color: #655d8a;
+}
+
+.estilo_btnMenu {
+    background-color: #d885a3;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.estilo_btnMenu a {
+    color: #655d8a;
+    text-decoration: none;
+}
+
+.botonera_principal {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #d885a3;
+    margin-top: 5px;
+    border-top: 1px solid #f9ebf0;
+    font-size: medium;
+}
+
+.botonera_principal.show {
+    display: flex;
+}
+
+.boton {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+a {
+    color: #655d8a;
+    text-decoration: none;
+}
+
+.boton a {
+    display: flex;
+    justify-content: center;
+}
+
+.boton:hover {
+    background-color: #f9ebf0;
+}
+
+.texto {
+    color: #655d8a;
+    font-size: medium;
+    line-height: 110%;
+}
+
+/*home*/
+
+.quienes_somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image_home {
+    width: 60%;
+    height: 40%;
+}
+
+
+#lista_actividades ul li {
+    list-style-type: circle;
+}
+
+#lista_actividades {
+    font-size: medium;
+    margin: 0 auto;
+}
+
+/*colaborar*/
+
+.texto_colaborar {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    justify-content: center;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: lightgray;
+}
+
+th {
+    color: white;
+    background-color: #655d8a;   
+}
+
+
+.link_colaborar {
+    text-decoration: underline;
+}
+
+a:hover.link_colaborar {
+    color: azure;
+}
+
+.btn_tabla {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+/*formulario*/
+
+form {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9ebf0;
+    padding: 10px;
+}
+
+input, textarea {
+    padding: 5px;
+}
+
+.btn_formulario, .btn_colaborar {
+    background-color: #f9ebf0;
+    border: 1px solid ;
+    font-size: 15px;
+    padding: 5px 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.btn_formulario:hover, .btn_colaborar:hover{
+    background-color: #fdceb9;
+
+}
+
+footer {
+    font-style: italic;
+    font-size:large;
+    text-align: center;
+}
+
+/*RESPONSIVE*/
+/*Si el ancho de la pantalla es > o = a 660px*/
+@media only screen and (min-width: 660px) {
+
+h1 {
+    font-size: 100px;
+    padding: 15px;
+}
+
+.estilo_btnMenu {
+    display: none;
+}
+
+.botonera_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #d885a3;
+    margin-top: 10px;
+    border-top: 5px solid #f9ebf0;
+    font-size: 30px;
+}
+
+
+.boton {
+    padding: 15px;
+}
+
+.texto {
+    font-size: 23px;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*home*/
+
+.quienes_somos {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image_home {
+    width: 50%;
+    height: 40%;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+#lista_actividades {
+    font-size: 30px;
+}
+
+/*colaborar*/
+
+#texto_colaborar {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+/*formulario*/
+
+form {
+   
+    width: 40%;
+    font-size: 30px;
+    padding: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+.btn_formulario, .btn_colaborar {
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-top: 15px;
+}
+ 
+}
