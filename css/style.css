@@ -36,7 +36,7 @@ h2 {
 }
 
 .estilo_btnMenu {
-    background-color: #d885a3;
+    background-color: #5ebfbf;
     padding: 10px;
     transition-duration: 0.5s;
 }
@@ -50,7 +50,7 @@ h2 {
     display: none;
     flex-direction: column;
     width: 100%;
-    background: #d885a3;
+    background: #5ebfbf;
     margin-top: 5px;
     border-top: 1px solid #f9ebf0;
     font-size: medium;
@@ -68,7 +68,7 @@ h2 {
 }
 
 a {
-    color: #655d8a;
+    color: black;
     text-decoration: none;
 }
 
