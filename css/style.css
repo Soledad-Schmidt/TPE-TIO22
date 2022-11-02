@@ -285,5 +285,9 @@ input, textarea {
     padding: 10px 24px;
     margin-top: 15px;
 }
+
+ul {
+    font-style: oblique;
+}
  
 }
