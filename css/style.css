@@ -35,11 +35,11 @@ h2 {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-color: #5ebfbf;
-    color: #655d8a;
+    color: #574c86;
 }
 
 .estilo_btnMenu {
-    background-color: #5ebfbf;
+    background-color: #4bd1d1;
     padding: 10px;
     transition-duration: 0.5s;
 }
