@@ -10,6 +10,9 @@ body {
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 h1 {
     text-align: center;
@@ -31,7 +34,7 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    background-color: #7897ab;
+    background-color: #5ebfbf;
     color: #655d8a;
 }
 
