@@ -8,7 +8,7 @@ body {
 }
 
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -108,7 +108,7 @@ a {
 
 
 #lista_actividades ul li {
-    list-style-type: circle;
+    list-style-type:georgian;
 }
 
 #lista_actividades {
