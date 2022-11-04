@@ -35,11 +35,8 @@ h2 {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-color: #5ebfbf;
-<<<<<<< HEAD
     color: #574c86;
-=======
     color: #675d8a;
->>>>>>> 31edcd9eee46d1193635bded121eb456d66e035d
 }
 
 .estilo_btnMenu {
@@ -276,7 +273,7 @@ h2 {
 form {
    
     width: 40%;
-    font-size: 30px;
+    font-size: 33px;
     padding: 20px;
 }
 
