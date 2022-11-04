@@ -32,10 +32,11 @@ h2 {
 
 .logo {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: #5ebfbf;
     color: #574c86;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .estilo_btnMenu {
