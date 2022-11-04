@@ -1,14 +1,14 @@
 /*sitio*/
 
 body {
-    background: #fffefe;
+    background: white;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,11 +35,11 @@ h2 {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-color: #5ebfbf;
-    color: #655d8a;
+    color: #574c86;
 }
 
 .estilo_btnMenu {
-    background-color: #5ebfbf;
+    background-color: #4bd1d1;
     padding: 10px;
     transition-duration: 0.5s;
 }
@@ -108,7 +108,7 @@ a {
 
 
 #lista_actividades ul li {
-    list-style-type: circle;
+    list-style-type:georgian;
 }
 
 #lista_actividades {
@@ -284,6 +284,10 @@ input, textarea {
     font-size: 20px;
     padding: 10px 24px;
     margin-top: 15px;
+}
+
+ul {
+    font-style: oblique;
 }
  
 }

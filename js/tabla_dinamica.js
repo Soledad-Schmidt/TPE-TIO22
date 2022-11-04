@@ -2,7 +2,7 @@
 
 document.querySelector("#agregar3").addEventListener("click", agregar3);
 document.querySelector("#vaciar").addEventListener("click", vaciar);
-document.querySelector("#mostrar").addEventListener("click", mostrar);
+document.getElementById("mostrar").addEventListener("click", mostrar());
 
 let productos = [
     {
