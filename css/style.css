@@ -4,7 +4,7 @@ body {
     background: #fffefe;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 105%;
 }
 
 * {
@@ -27,7 +27,7 @@ h2 {
     font-size: large;
     text-align: center;
     background-color: #7897ab;
-    color: #655d8a;
+    color: #99a3a2;
 }
 
 .logo {
@@ -35,7 +35,11 @@ h2 {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-color: #5ebfbf;
+<<<<<<< HEAD
     color: #574c86;
+=======
+    color: #675d8a;
+>>>>>>> 31edcd9eee46d1193635bded121eb456d66e035d
 }
 
 .estilo_btnMenu {
