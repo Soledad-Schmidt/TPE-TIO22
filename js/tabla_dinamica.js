@@ -6,20 +6,26 @@ document.querySelector("#mostrar").addEventListener("click", mostrar);
 
 let productos = [
     {
-        nombre : "Juan Perez",
+        nombre : "Juan",
+        apellido : "Perez",
         email : "juan@gmail.com",
+        telefono : "2494497079",
         articulo : "calcomania",
         cantidad : "4",
     },
     {
-        nombre : "Maria Lopez",
+        nombre : "Maria",
+        apellido : "Lopez",
         email : "maria@gmail.com",
+        telefono : "2494567342",
         articulo : "tazas",
         cantidad : "2",
     },
     {
-        nombre : "Florencia Gonzalez",
+        nombre : "Florencia",
+        apellido : "Gonzalez",
         email : "florencia@gmail.com",
+        telefono : "2494339866",
         articulo : "llaveros",
         cantidad : "5",
     },
