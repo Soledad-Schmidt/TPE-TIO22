@@ -27,7 +27,11 @@ h2 {
     font-size: large;
     text-align: center;
     background-color: #7897ab;
-    color: #655d8a;
+<<<<<<< HEAD
+    color: #99a3a2;
+=======
+
+>>>>>>> estilos
 }
 
 .logo {
@@ -35,7 +39,11 @@ h2 {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-color: #5ebfbf;
-    color: #574c86;
+<<<<<<< HEAD
+    color: #675d8a;
+=======
+
+>>>>>>> estilos
 }
 
 .estilo_btnMenu {
