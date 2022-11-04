@@ -36,14 +36,10 @@ h2 {
 
 .logo {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: #5ebfbf;
-<<<<<<< HEAD
-    color: #675d8a;
-=======
-
->>>>>>> estilos
+    color: #574c86;
 }
 
 .estilo_btnMenu {
@@ -280,7 +276,7 @@ h2 {
 form {
    
     width: 40%;
-    font-size: 30px;
+    font-size: 33px;
     padding: 20px;
 }
 
