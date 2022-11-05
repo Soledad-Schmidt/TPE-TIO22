@@ -4,7 +4,7 @@ body {
     background: white;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 105%;
 }
 
 * {
@@ -27,15 +27,17 @@ h2 {
     font-size: large;
     text-align: center;
     background-color: #7897ab;
-    color: #655d8a;
+    color: #99a3a2;
+
 }
 
 .logo {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: #5ebfbf;
     color: #574c86;
+    color: #675d8a;
 }
 
 .estilo_btnMenu {
@@ -90,7 +92,6 @@ a {
     line-height: 110%;
 }
 
-/*home*/
 
 .quienes_somos {
     display: flex;
@@ -272,7 +273,7 @@ h2 {
 form {
    
     width: 40%;
-    font-size: 30px;
+    font-size: 33px;
     padding: 20px;
 }
 
