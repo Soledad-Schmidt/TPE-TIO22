@@ -35,7 +35,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #5ebfbf;
+    background-color: blue;
     color: #574c86;
     color: #675d8a;
 }
